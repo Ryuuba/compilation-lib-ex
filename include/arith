@@ -1,0 +1,75 @@
+#include <cstdint>
+
+namespace arith {
+
+/** @brief Add two 8-bit integers
+ * @param a The first addend
+ * @param b The second addend
+ * @returns a + b
+ */
+int add(int8_t& a, const int8_t& b);
+
+/** @brief Add two 16-bit integers
+ * @param a The first addend
+ * @param b The second addend
+ * @returns a + b
+ */
+int add(int16_t& a, const int16_t& b);
+
+/** @brief Add two 32-bit integers
+ * @param a The first addend
+ * @param b The second addend
+ * @returns a + b
+ */
+int add(const int32_t& a, const int32_t& b);
+
+/** @brief Add two 64-bit integers
+ * @param a The first addend
+ * @param b The second addend
+ * @returns a + b
+ */
+int add(int64_t& a, const int64_t& b);
+
+/** @brief Performs a subtraction between two primitive types
+ * @param a The minuend
+ * @param b The sustrahend
+ * @returns a - b
+ */
+int sub(const int& a, const int& b);
+
+/** @brief Multiplies two primitive types
+ * @param a The multiplicand
+ * @param b The multiplier
+ * @returns a * b
+ */
+int mult(const int& a, const int& b);
+
+/** @brief Divides two primitive types
+ * @param a The dividend
+ * @param b The divisor
+ * @returns a / b
+ */
+int div(const int& a, const int& b);
+
+/** @brief Computes the modulus between two primitive types
+ * @param a The dividend
+ * @param b The divisor
+ * @returns a % b
+ */
+int mod(const int& a, const int& b);
+
+/** @brief Increments the value of a, then returns a + 1
+ * @param a A primitive type
+ * @returns a + 1
+ */
+int pre_inc(int& a);
+
+/** @brief Increments the value of a, then returns a
+ * @param a A primitive type
+ * @returns a
+ */
+int pst_inc(int& a);
+
+}; // namespace arith
+
+
