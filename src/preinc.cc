@@ -1,3 +1,5 @@
+#include "../include/arith"
+
 namespace arith{
 
 int pre_inc(int& a)

@@ -1,3 +1,5 @@
+#include "../include/arith"
+
 namespace arith{
 
 int mult(const int& a, const int& b)

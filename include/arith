@@ -1,3 +1,6 @@
+#ifndef ARITH_H
+#define ARITH_H
+
 #include <cstdint>
 
 namespace arith {
@@ -72,4 +75,4 @@ int pst_inc(int& a);
 
 }; // namespace arith
 
-
+#endif

@@ -1,3 +1,5 @@
+#include "../include/arith"
+
 namespace arith{
 
 int pst_inc(int& a)

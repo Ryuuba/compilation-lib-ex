@@ -1,3 +1,5 @@
+#include "../include/arith"
+
 namespace arith{
 
 int add(const int8_t& a, const int8_t& b)
